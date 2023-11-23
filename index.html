@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: rgba(101, 149, 203, 0.553)">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form{
+            display: flex;
+            margin: 50px;
+            margin-left: 100px;
+            width: 80%;
+        }
+        .form .left{
+            background-color: rgb(239, 244, 250);
+            height: 600px;
+            width: 500px;
+            text-align: center;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+        .form .right{
+            background-color: rgb(8, 8, 142);
+            height: 600px;
+            width: 500px;
+            text-align: center;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        input{
+            width: 35%;
+            background: transparent;
+            border: none;
+            outline: none;
+            background: transparent;
+            border-bottom: 2px solid rgb(186, 186, 186);
+            
+        }
+        select{
+            width: 70%;
+            background: transparent;
+            border: none;
+            outline: none;
+            background: transparent;
+            border-bottom: 2px solid rgb(186, 186, 186);
+        }
+    </style>
+</head>
+<body>
+    <div class="form" >
+        <div class="left">
+            <h2 style="color: rgb(46, 46, 159);">General Information</h2>
+            <br><br>
+            <select name="lang" id="language">
+                <option value="Title">Title</option>
+                <option value="javascript" >JavaScript</option>
+                <option value="python">Python</option>
+                <option value="c++">C++</option>
+                <option value="java">Java</option></select>
+                <br>
+                <br>
+                <br>
+            <div class="input">
+                <input style="width: 30%" type="text" placeholder="First name"> &ensp;
+                <input style="width: 20% type="text" placeholder="Last name">
+            </div>
+            <br>
+            <br>
+            
+            <select name="lang" id="language">
+                <option value="position">Position</option>
+                <option value="Software Engineer" >Software Engineer</option>
+                <option value="IT Support">IT Support</option>
+                <option value="Project Manager">Project Manager</option>
+                <option value="System analyst">System analyst</option></select>
+                <br>
+                <br>
+                <br>
+                <input style="width: 70%;" type="text" placeholder="Company">
+                <br>
+                <br>
+                <br>
+                <input type="text" placeholder="Business Arena"> &ensp;
+                <select style="width: 30%;" name="lang" id="language">
+                    <option value="Employees">Employees</option>
+                    <option value="Software Engineer" >Software Engineer</option>
+                    <option value="python">Python</option>
+                    <option value="c++">C++</option>
+                    <option value="java">Java</option></select>
+        </div>
+        <div class="right">
+            <h2 style="color: aliceblue;">Contact Details</h2>
+            <br><br>
+            <div class="input">
+                <input style="width: 70%;" type="text" placeholder="Street + Nr">
+                <br><br><br>
+                <input style="width: 70%;" type="text" placeholder="Additional Information">
+            </div>
+                <br><br>
+    
+                <input type="text" placeholder="Zip code"> &ensp;
+                <select style="width: 30%;" name="lang" id="language">
+                    <option value="place">Place</option>
+                    <option value="Nagapattinam" >Nagapattinam</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Thrichy">Thrichy</option>
+                    <option value="Coimbatore">Coimbatore</option></select>
+                    <br><br><br>
+                    <select  name="lang" id="language">
+                        <option value="Country">Country</option>
+                        <option value="India" >India</option>
+                        <option value="US">US</option>
+                        <option value="China">China</option>
+                        <option value="Canada">Canada</option></select>
+                        <br><br><br>
+                        <input style="width: 30%; type="text" placeholder="Code +"> &ensp;
+                        <input style="width: 120% type="text" placeholder="Phone Number"> 
+                        <br><br><br>
+                        <input style="width: 70%;" type="text" placeholder="Your Email"> 
+                        <br><br>
+                        
+                          <p style="color: aliceblue; display:inline-flex; height: 20px;"><input type="checkbox">I do accept of the terms and conditions of this site</p> 
+                        
+                        
+                        <br><br><br>
+                        <button type="submit" style="border-radius: 30px; height: 35px; width: 130px;"><b>Register Badge</b></button>
+                    
+        </div>
+    </div>
+</body>
+</html>
